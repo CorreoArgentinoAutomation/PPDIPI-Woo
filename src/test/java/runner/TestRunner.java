@@ -17,7 +17,7 @@ import org.junit.runners.Suite;
         features = {"src/main/resources/features/PlataformaIntegracion"
         },
         glue = {"stepsDefinitions", "framework","PlataformaIntegracion","Google","MiCorreo1_5"}, // Agrega el paquete de los hooks y framework
-        tags =  "@PPDIPI-3225"
+        tags =  "@PPDIPI-3226"
         //"@PPDIPI-3167"
 )
 public class TestRunner {
