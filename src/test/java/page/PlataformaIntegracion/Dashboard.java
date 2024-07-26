@@ -26,7 +26,7 @@ public class Dashboard extends BasePage {
     private By servicioMiCorreo = By.xpath("(//li[@class='select2-results__option'])[1]");
     private By servicioPaqAr = By.xpath("(//li[@class='select2-results__option'])[2]");
     private By opcionCotizadorSI = By.xpath("(//li[@class='select2-results__option'])[1]");
-    private By btnGuardarCambios = By.xpath("//button[@class='button-primary woocommerce-save-button']");
+    private By btnGuardarCambios = By.xpath("//button[@class='woocommerce-save-button components-button is-primary']");
     private By txtUsuarioEnvio = By.xpath("//input[@id='woocommerce_correoargentino_shipping_method_email']");
     private By txtContrasenaEnvio = By.xpath("//input[@id='woocommerce_correoargentino_shipping_method_password']");
     private By campoNombre = By.xpath("//input[@id='woocommerce_correoargentino_shipping_method_business_name']");
